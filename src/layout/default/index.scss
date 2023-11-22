@@ -7,14 +7,15 @@
 html {
 	min-height: 100%;
 	padding: 64px 0;
+	display: grid;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	max-width: 420px;
-	width: 420px;
-	margin: auto;
-	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	height: 1000px;
 	background-color: s.color('background');
 	display: flex;
 }
